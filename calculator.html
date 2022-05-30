@@ -1,5 +1,5 @@
 <html>
-  <head><meta charset="utf-8"><title>calculator</title>
+  <head><meta charset="utf-8"><title>3308 노예린 계산기</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -91,6 +91,25 @@
       color: white;
       text-decoration: none;
       }
+
+      .buttongo:hover {
+    background-color: #008CBA;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+}
+.home-button {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .home-button a {
+        color: red;
+        text-decoration: none;
+      }
+      .home-button a:hover {
+        color: white;
+      }
       /* 마지막버튼 디자인*/
   </style>
   <script>
@@ -144,7 +163,11 @@
                 </div>
             </div><br><br><br>
           </center>
-          <center><button type="button" class="btn btn-outline-primary"><a href="index.html">HOME</a></button></center>
+          <div class="home-button">
+            <button class="btn btn-outline-danger">
+              <a href="index.html">HOME</a>
+            </button>
+          </div>
       </div>
     </div>
   </body>

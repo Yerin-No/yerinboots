@@ -8,6 +8,29 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <style>
+        .red-text {
+          font-size: 1.2rem;
+          color: red;
+        }
+  
+        #card-container {
+          display: flex;
+          align-items: center;
+        }
+  
+        .button-container {
+          display: flex;
+          justify-content: center;
+          margin-top: 50px;
+        }
+        .button-container a {
+          color: orange;
+        }
+        .button-container a:hover {
+          color: white;
+        }
+      </style>
     </head>
 <body>
     <br> 
@@ -21,6 +44,10 @@
         </div>
     </div>
     <br><br>
-    <center><button type="button" class="btn btn-outline-primary"><a href="index.html">HOME</a></button></center>
+    <div class="button-container">
+        <button class="btn btn-outline-warning">
+          <a href="index.html">HOME</a>
+        </button>
+      </div>
 </body>
 </html>
